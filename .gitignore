@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android Studio
+.idea/
+*.iml
+local.properties
+
+# Kotlin/Java
+*.class
+
+# Generated Android artifacts
+captures/
+*.apk
+*.aab
+*.ap_
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Superpowers local brainstorming artifacts
+.superpowers/
