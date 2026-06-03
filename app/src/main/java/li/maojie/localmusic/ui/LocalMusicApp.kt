@@ -20,10 +20,17 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowLeft
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
+import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.FilledIconButton
+import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -93,10 +100,10 @@ private fun Header() {
             )
         }
         IconButton(onClick = {}) {
-            Text("Search")
+            Icon(Icons.Filled.Search, contentDescription = "Search")
         }
         IconButton(onClick = {}) {
-            Text("Settings")
+            Icon(Icons.Filled.Settings, contentDescription = "Settings")
         }
     }
 }
@@ -223,7 +230,7 @@ private fun SongRow(song: SampleSong) {
             )
         }
         IconButton(onClick = {}) {
-            Text("More")
+            Icon(Icons.Filled.MoreVert, contentDescription = "More")
         }
     }
 }
@@ -270,13 +277,21 @@ private fun MiniPlayer() {
                 )
             }
             IconButton(onClick = {}) {
-                Text("Prev", color = MaterialTheme.colorScheme.inverseOnSurface)
+                Icon(
+                    imageVector = Icons.AutoMirrored.Filled.KeyboardArrowLeft,
+                    contentDescription = "Previous",
+                    tint = MaterialTheme.colorScheme.inverseOnSurface
+                )
             }
             FilledIconButton(onClick = {}, modifier = Modifier.size(42.dp)) {
-                Text("Play")
+                Icon(Icons.Filled.PlayArrow, contentDescription = "Play")
             }
             IconButton(onClick = {}) {
-                Text("Next", color = MaterialTheme.colorScheme.inverseOnSurface)
+                Icon(
+                    imageVector = Icons.AutoMirrored.Filled.KeyboardArrowRight,
+                    contentDescription = "Next",
+                    tint = MaterialTheme.colorScheme.inverseOnSurface
+                )
             }
         }
     }
