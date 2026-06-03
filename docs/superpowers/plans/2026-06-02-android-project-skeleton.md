@@ -18,13 +18,13 @@
 - Create: `gradle.properties`
 - Create: `app/build.gradle.kts`
 - Create: `app/src/main/AndroidManifest.xml`
-- Create: `app/src/main/java/li/maojie/localmusic/MainActivity.kt`
-- Create: `app/src/main/java/li/maojie/localmusic/ui/LocalMusicApp.kt`
-- Create: `app/src/main/java/li/maojie/localmusic/ui/theme/Theme.kt`
+- Create: `app/src/main/java/app/hani/music/MainActivity.kt`
+- Create: `app/src/main/java/app/hani/music/ui/LocalMusicApp.kt`
+- Create: `app/src/main/java/app/hani/music/ui/theme/Theme.kt`
 - Create: `app/src/main/res/values/strings.xml`
-- Create: `app/src/test/java/li/maojie/localmusic/domain/playback/QueueManagerTest.kt`
-- Create: `app/src/main/java/li/maojie/localmusic/domain/playback/QueueModels.kt`
-- Create: `app/src/main/java/li/maojie/localmusic/domain/playback/QueueManager.kt`
+- Create: `app/src/test/java/app/hani/music/domain/playback/QueueManagerTest.kt`
+- Create: `app/src/main/java/app/hani/music/domain/playback/QueueModels.kt`
+- Create: `app/src/main/java/app/hani/music/domain/playback/QueueManager.kt`
 - Modify: `README.md`
 
 ## Task 1: Gradle Android Skeleton

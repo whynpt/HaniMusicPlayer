@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "li.maojie.localmusic"
+    namespace = "app.hani.music"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "li.maojie.localmusic"
+        applicationId = "app.hani.music"
         minSdk = 33
         targetSdk = 36
         versionCode = 1

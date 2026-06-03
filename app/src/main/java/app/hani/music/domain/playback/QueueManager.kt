@@ -1,4 +1,4 @@
-package li.maojie.localmusic.domain.playback
+package app.hani.music.domain.playback
 
 object QueueManager {
     fun createQueue(

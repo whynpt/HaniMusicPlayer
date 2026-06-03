@@ -12,11 +12,11 @@
 
 ## Files
 
-- Create: `app/src/main/java/li/maojie/localmusic/domain/model/Song.kt`
-- Create: `app/src/main/java/li/maojie/localmusic/data/media/MediaStoreAudioRow.kt`
-- Create: `app/src/main/java/li/maojie/localmusic/data/media/MediaStoreAudioMapper.kt`
-- Create: `app/src/main/java/li/maojie/localmusic/data/media/MediaStoreAudioScanner.kt`
-- Create: `app/src/test/java/li/maojie/localmusic/data/media/MediaStoreAudioMapperTest.kt`
+- Create: `app/src/main/java/app/hani/music/domain/model/Song.kt`
+- Create: `app/src/main/java/app/hani/music/data/media/MediaStoreAudioRow.kt`
+- Create: `app/src/main/java/app/hani/music/data/media/MediaStoreAudioMapper.kt`
+- Create: `app/src/main/java/app/hani/music/data/media/MediaStoreAudioScanner.kt`
+- Create: `app/src/test/java/app/hani/music/data/media/MediaStoreAudioMapperTest.kt`
 
 ## Task 1: Testable MediaStore Mapping
 

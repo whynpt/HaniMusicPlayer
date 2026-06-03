@@ -1,4 +1,4 @@
-package li.maojie.localmusic.domain.model
+package app.hani.music.domain.model
 
 data class Song(
     val mediaId: Long,

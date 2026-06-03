@@ -1,4 +1,4 @@
-package li.maojie.localmusic.ui.theme
+package app.hani.music.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.ColorScheme

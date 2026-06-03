@@ -1,4 +1,4 @@
-package li.maojie.localmusic.data.media
+package app.hani.music.data.media
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull

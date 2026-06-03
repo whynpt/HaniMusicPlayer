@@ -1,6 +1,6 @@
-package li.maojie.localmusic.data.media
+package app.hani.music.data.media
 
-import li.maojie.localmusic.domain.model.Song
+import app.hani.music.domain.model.Song
 
 object MediaStoreAudioMapper {
     private const val MinimumMusicDurationMs = 30_000L

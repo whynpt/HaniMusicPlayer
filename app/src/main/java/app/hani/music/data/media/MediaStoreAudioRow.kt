@@ -1,4 +1,4 @@
-package li.maojie.localmusic.data.media
+package app.hani.music.data.media
 
 data class MediaStoreAudioRow(
     val id: Long,

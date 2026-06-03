@@ -1,4 +1,4 @@
-package li.maojie.localmusic.ui
+package app.hani.music.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -46,7 +46,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import li.maojie.localmusic.ui.theme.LocalMusicTheme
+import app.hani.music.ui.theme.LocalMusicTheme
 
 @Composable
 fun LocalMusicApp(modifier: Modifier = Modifier) {

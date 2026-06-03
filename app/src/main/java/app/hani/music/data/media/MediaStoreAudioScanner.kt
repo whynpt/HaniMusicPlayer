@@ -1,9 +1,9 @@
-package li.maojie.localmusic.data.media
+package app.hani.music.data.media
 
 import android.content.ContentResolver
 import android.database.Cursor
 import android.provider.MediaStore
-import li.maojie.localmusic.domain.model.Song
+import app.hani.music.domain.model.Song
 
 class MediaStoreAudioScanner(
     private val contentResolver: ContentResolver
