@@ -1,5 +1,6 @@
 # Gradle
 .gradle/
+local-music-gradle-home/
 build/
 */build/
 
